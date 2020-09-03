@@ -1,0 +1,51 @@
+.btn{
+	border-radius: 15px;
+	margin: 20px auto;
+}
+.top{
+	padding: 30px;
+	color: white;
+	text-transform: uppercase;
+    
+}
+.top h4{
+    //margin-top: 60px;
+}
+
+.iris {
+    background-image: url("laptop.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+}
+
+.bottom{
+	margin-top: 450px;
+	
+}
+button{
+	transition: 1s all;
+}
+
+button:hover{
+	transform: scale(1.03);
+	border-color: darkcyan;
+	background-color: darkcyan;
+
+}
+
+
+@media only screen and (max-width: 300px){
+    .iris{
+	    background-image: url("mobile_laptop.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+	}
+}
